@@ -57,7 +57,7 @@ class ClusterConnectivityIT extends CommandTestBase {
     assert quorum
     def tuples = ZookeeperUtils.splitToHostsAndPortsStrictly(quorum);
     tuples.each {
-      telnet(it.hostText, it.port)
+      telnet(it.host, it.port)
     }
 
   }
