@@ -153,7 +153,7 @@
     <gson.version>2.2.2</gson.version>
     <guice.version>3.0</guice.version>
 
-    <jackson.version>2.9.8</jackson.version>
+    <jackson.version>2.9.9</jackson.version>
     <jackson-xc.version>1.9.3</jackson-xc.version>
     <jcommander.version>1.30</jcommander.version>
 
