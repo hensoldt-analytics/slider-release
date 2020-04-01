@@ -1048,8 +1048,10 @@ public class SliderAppMaster extends AbstractSliderLaunchedService
           AbstractDelegationTokenIdentifier hdfsTokenID = (AbstractDelegationTokenIdentifier) token
               .decodeIdentifier();
           long tokenMaxLifetime = hdfsTokenID.getMaxDate();
-          // 0.9 gives a 10% buffer time to renew the tokens before they expire
-          if (System.currentTimeMillis() >= tokenMaxLifetime * 0.9) {
+          long expiresIn = tokenMaxLifetime - System.currentTimeMillis();
+          // 10% buffer time or 60 seconds to renew the tokens before they expire
+          long renewsIn = tokenMaxLifetime - Math.max(expiresIn/10 , 60_000);
+          if (expiresIn <= 0 || System.currentTimeMillis() >= renewsIn) {
             // TODO: Check if the token validity is on
             hasTheTokenExpiredAtleastOnce = true;
           }
