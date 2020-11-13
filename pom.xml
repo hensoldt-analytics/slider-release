@@ -19,7 +19,7 @@
   <groupId>org.apache.slider</groupId>
   <artifactId>slider</artifactId>
   <name>Slider</name>
-  <version>0.92.0.2.6.5.0-SNAPSHOT</version>
+  <version>0.92.0.2.6.5.3033-1</version>
   <packaging>pom</packaging>
 
   <description>
@@ -131,10 +131,10 @@
     <!--
     core artifacts
     -->
-    <hadoop.version>2.7.3.2.6.5.0-SNAPSHOT</hadoop.version>
+    <hadoop.version>2.7.3.2.6.5.3033-1</hadoop.version>
 
-    <hbase.version>1.1.2.2.6.5.0-SNAPSHOT</hbase.version>
-    <accumulo.version>1.7.0.2.6.5.0-SNAPSHOT</accumulo.version>
+    <hbase.version>1.1.2.2.6.5.3033-1</hbase.version>
+    <accumulo.version>1.7.0.2.6.5.3033-1</accumulo.version>
     <!--
      artifact versions
     -->
@@ -178,7 +178,7 @@
     <snakeyaml.version>1.16</snakeyaml.version>
     <storm.version>0.9.3</storm.version>
     <stringtemplate.version>2.4.1</stringtemplate.version>
-    <zookeeper.version>3.4.6.2.6.5.0-SNAPSHOT</zookeeper.version>
+    <zookeeper.version>3.4.6.2.6.5.3033-1</zookeeper.version>
 
 
     <!-- artifacts used in plugins -->
@@ -240,7 +240,7 @@
     <asf.staging>https://repository.apache.org/content/groups/staging/</asf.staging>
     <asf.snapshots>https://repository.apache.org/content/repositories/snapshots/</asf.snapshots>
     <adl.sdk.version>2.3.6</adl.sdk.version>
-    <gcs.version>1.8.1.2.6.5.0-SNAPSHOT</gcs.version>
+    <gcs.version>1.8.1.2.6.5.3033-1</gcs.version>
   </properties>
 
 
@@ -1734,7 +1734,7 @@
       <!-- 2.6 snapshots -->
       <id>branch-2.6</id>
       <properties>
-        <hadoop.version>2.7.3.2.6.5.0-SNAPSHOT</hadoop.version>
+        <hadoop.version>2.7.3.2.6.5.3033-1</hadoop.version>
       </properties>
     </profile>
 
@@ -1742,7 +1742,7 @@
       <!-- 2.6 -->
       <id>release-2.6</id>
       <properties>
-        <hadoop.version>2.7.3.2.6.5.0-SNAPSHOT</hadoop.version>
+        <hadoop.version>2.7.3.2.6.5.3033-1</hadoop.version>
         <curator.version>2.4.1</curator.version>
       </properties>
     </profile>
@@ -1751,7 +1751,7 @@
       <!-- hadoop 2.7.2 -->
       <id>release-2.7</id>
       <properties>
-        <hadoop.version>2.7.3.2.6.5.0-SNAPSHOT</hadoop.version>
+        <hadoop.version>2.7.3.2.6.5.3033-1</hadoop.version>
       </properties>
     </profile>
 
@@ -1759,7 +1759,7 @@
       <!-- hadoop 2.7.2 -->
       <id>hadoop-2.7.2</id>
       <properties>
-        <hadoop.version>2.7.3.2.6.5.0-SNAPSHOT</hadoop.version>
+        <hadoop.version>2.7.3.2.6.5.3033-1</hadoop.version>
       </properties>
     </profile>
 
@@ -1767,7 +1767,7 @@
       <!-- hadoop branch-2 builds  -->
       <id>branch-2.8</id>
       <properties>
-        <hadoop.version>2.7.3.2.6.5.0-SNAPSHOT</hadoop.version>
+        <hadoop.version>2.7.3.2.6.5.3033-1</hadoop.version>
       </properties>
     </profile>
     
@@ -1775,7 +1775,7 @@
       <!-- hadoop branch-2 builds  -->
       <id>branch-2</id>
       <properties>
-        <hadoop.version>2.7.3.2.6.5.0-SNAPSHOT</hadoop.version>
+        <hadoop.version>2.7.3.2.6.5.3033-1</hadoop.version>
       </properties>
     </profile>
     
@@ -1783,7 +1783,7 @@
       <!-- hadoop trunk builds  -->
       <id>trunk</id>
       <properties>
-        <hadoop.version>2.7.3.2.6.5.0-SNAPSHOT</hadoop.version>
+        <hadoop.version>2.7.3.2.6.5.3033-1</hadoop.version>
       </properties>
     </profile>
 
